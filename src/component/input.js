@@ -1,11 +1,11 @@
 import "./input.css";
 
 
-const Input = () =>{
+const Input = ({text , result}) =>{
     return (
         <div className='Input-wrapper'>
-            <div  className='result'> <h1>result</h1></div>
-            <div className='text'> <h3>text</h3></div>
+            <div  className='result'> <h1>{result}</h1></div>
+            <div className='text'> <h3>{text}</h3></div>
         </div>
     )
 }
